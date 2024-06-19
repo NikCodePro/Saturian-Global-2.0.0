@@ -1,0 +1,184 @@
+/* for all pages this is utility responsie css */
+
+@media (max-width: 970px) {
+    #hamburger {
+        display: block;
+        position: absolute;
+        right: 20px;
+    }
+
+    #hamburger lordicon {
+        position: relative;
+    }
+
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        right: -350px;
+        top: -10px;
+        z-index: 100;
+        color: red;
+        height: 100vh;
+        background: transparent;
+        backdrop-filter: blur(5px);
+        background-color: #0808089e;
+        position: fixed;
+        width: 320px;
+        transition: 0.4s;
+        padding: 108px 0 0 30px;
+        overflow-y: scroll;
+    }
+
+    #navbar.active {
+        right: -20px;
+    }
+
+    #navbar li {
+        margin-bottom: 30px;
+    }
+
+    #navbar li a {
+        font-size: 1rem;
+    }
+
+    #navbar li a:before {
+        content: "";
+        position: absolute;
+        bottom: -5px;
+        height: 3px;
+        width: 0;
+        background: #FFD700;
+        border-radius: 50px;
+        transition: width 0.3s ease-in-out;
+    }
+
+    #navbar :hover:before,
+    #navbar li a:hover {
+        width: 100%;
+        color: #FFC000;
+    }
+
+    .dropdown-menu {
+        overflow-y: scroll;
+        height: 40vh;
+    }
+
+    .dropdown-menu[data-bs-popper] {
+        left: 105px;
+    }
+
+    #navbar #close {
+        display: block;
+    }
+
+    #close {
+        position: absolute;
+        top: 30px;
+        left: 50px;
+        font-size: 18px;
+    }
+
+    #navbar li ul {
+        overflow-y: scroll;
+    }
+
+    #navbar li ul li a {
+        font-size: 0.9rem;
+        margin-bottom: -10px;
+    }
+
+
+}
+
+@media (max-width:450px) {
+    .logo-part h1 {
+        font-size: 1.1rem
+    }
+}
+
+/* home banner section------------------------- */
+@media (max-width:585px) {
+    .header-text-container h1 {
+        font-size: 3rem;
+    }
+
+    .lower-text-container h3 {
+        color: #DAA520;
+        font: 1.7rem;
+    }
+
+    .info-link-1 a h4 {
+        font-size: 1rem;
+    }
+
+    .info-link-1 {
+        text-align: left;
+    }
+}
+
+
+
+/* service card section------------------------------ */
+@media (max-width:900px) {
+    .service-card-header {
+        width: 100%;
+    }
+}
+
+@media (max-width:500px) {
+    .info-card {
+        width: 240px;
+        height: 190px
+    }
+
+    .info-card img {
+        width: 140;
+        height: 80px;
+    }
+
+    .info-card h3 {
+        font-size: .8rem;
+    }
+}
+
+
+/* footer section css------------------------- */
+/* footer section css------------------------- */
+/* footer section css------------------------- */
+
+@media (max-width:320px) {
+    .column-4-img img {
+        width: 250px;
+        height: 170px;
+    }
+
+    .column-3 ul p {
+        font-size: 1rem;
+    }
+
+    .column-common li a {
+        font-size: 0.8rem;
+    }
+}
+
+
+/* baneer section for pages=========================== */
+/* baneer section for pages=========================== */
+/* baneer section for pages=========================== */
+/* baneer section for pages=========================== */
+
+@media(max-width:400px) {
+    .about-banner {
+        height: 50vh;
+    }
+
+    .about-banner-head h1 {
+        font-size: 2.5rem;
+    }
+
+    .about-banner-head h4 {
+        font-size: 1rem;
+    }
+}
