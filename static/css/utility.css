@@ -60,6 +60,10 @@ html {
   margin: 10px;
 }
 
+.m-20 {
+  margin: 20px;
+}
+
 .p-10 {
   padding: 10px;
 }
@@ -375,7 +379,7 @@ html {
 .about-banner {
   width: 100%;
   height: 70vh;
-  background: url(/static/media/about.jpg) no-repeat center/cover fixed;
+  /* background: url(/static/media/about.jpg) no-repeat center/cover fixed; */
   margin-bottom: 25px;
 }
 

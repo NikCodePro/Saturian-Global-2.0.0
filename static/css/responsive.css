@@ -193,3 +193,67 @@
         font-size: 1rem;
     }
 }
+
+/* contact page csss-------------------------------------////////////////////////////// */
+
+@media (max-width: 500px) {
+
+    .card-img i {
+        font-size: 3rem;
+    }
+
+    .card-info h1 {
+        font-size: 1.1rem;
+    }
+
+    .card-info p {
+        font-size: 0.8rem;
+    }
+
+    .card-info p a {
+        font-size: 0.8rem;
+    }
+
+    .office-address p {
+        font-size: 0.9rem;
+    }
+
+    .email-address a {
+        font-size: 0.8rem;
+    }
+
+    .maps {
+        height: 50vh;
+    }
+}
+
+@media (max-width: 666px) {
+    .form-head h1 {
+        font-size: 1.6rem;
+    }
+
+    .form-head h3 {
+        font-size: 1.1rem;
+    }
+
+    ::placeholder {
+        font-size: 0.8rem;
+    }
+
+    .contact-form input[type=text] {
+        width: 80%;
+    }
+    
+    .contact-form input[type=email] {
+        width: 80%;
+    }
+    
+    .contact-form textarea {
+        width: 80%;
+    }
+
+    .btn {
+        font-size: 0.8rem;
+    }
+
+}

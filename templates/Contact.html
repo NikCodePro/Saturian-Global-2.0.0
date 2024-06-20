@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Saturian Global - About Us</title>
+    <title>Saturian Global - Contact Us</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
     <link rel="icon" type="image/x-icon" href="/static/media/favicon.png">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
-    <link rel="stylesheet" href="/static/css/about.css">
+    <link rel="stylesheet" href="/static/css/contact.css">
     <link rel="stylesheet" href="/static/css/utility.css">
     <link rel="stylesheet" href="/static/css/responsive.css">
 
@@ -67,39 +67,97 @@
         </div>
     </header>
 
-
     <!-- banner section---------------------------------- -->
-    <section style="background: url(/static/media/about.jpg) no-repeat center/cover fixed;" class="about-banner" id="about-banner">
+    <section style="background: url(/static/media/banner.jpg) no-repeat center/cover fixed;" class="about-banner"
+        id="about-banner">
         <aside class="shade flex-center">
             <div class="about-banner-head">
                 <h1>
-                    About Us
+                    Contact Us
                 </h1>
-                <h4><a href="index.html">Home</a>/About Us</h4>
+                <h4><a href="index.html">Home</a>/Contact Us</h4>
             </div>
         </aside>
     </section>
 
-    <!-- company intro section--------------------------------------- -->
-
-    <section class="intro-first flex my20 mx10">
-        <div class="intro-para p-5">
-            <h1 class="mpt-5">Our Foundation</h1>
-            <p class="mpt-5">Founded in 2021, as a Pvt Ltd Company under Companies act of India, we are Indian company
-                with HQ in New Delhi and services capabilities PAN India through our own locations and strategic
-                alliances. we address wide range of business challenges
-                & complexities A leading provider of online technical support services to consumers and small businesses
-                across a wide range of computing and communications devices and software.Leveraging its proprietary
-                Digital Service Cloud software
-                technology platform, SATUIAN GLOBAL delivers support services to millions of customers globally and its
-                services are available on demand. SATURIAN GLOBAL recently launched on-ground support services as well,
-                which are currently
-                available across PAN India</p>
+    <!-- contact card-----------section------- -->
+    <section class="contact-container flex-center-col wd-page">
+        <div class="contact-card-box m-20">
+            <div class="card-img">
+                <i class="fa fa-phone"></i>
+            </div>
+            <div class="card-info">
+                <h1>Call Us For Any Enquiry</h1>
+                <!-- for contact -->
+                <p>For Contact : <a href="tel:+91-9667791091">+91-9667791091</a>
+                    <!-- contact -->
+                    <br>
+                    <a href="tel:01146535346">+91-01146535346</a>
+                </p>
+                <!-- for complaints & service -->
+                <p>For Complaint & Service : <a href="tel:+91-8130980016">+91-8130980016</a></p>
+                <!-- querries   -->
+                <p>Your Querries : <a href="tel:+91-7982912295">+91-7982912295</a></p>
+            </div>
         </div>
+
+        <div class="contact-card-box m-20">
+            <div class="card-img">
+                <i class="fa fa-envelope"></i>
+            </div>
+            <div class="card-info email-address">
+                <h1>For Business Support</h1>
+                <p><a href="mailto:Info@saturianglobal.com" target="_blank">Info@saturianglobal.com</a></p>
+                <p><a href="mailto:contact@Saturiannglobal.com" target="_blank">Contact@Saturianglobal.com</a></p>
+            </div>
+        </div>
+
+        <div class="contact-card-box  m-20">
+            <div class="card-img">
+                <i class="fas fa-map-marked-alt"></i>
+            </div>
+            <div class="card-info office-address">
+                <h1>Visit Here</h1>
+                <p><a href="https://maps.app.goo.gl/DSfwguAsY2qvo5eR8" target="_blank">B 57, Pocket B, Okhla Phase I,
+                        Okhla Industrial Estate, New Delhi, Delhi 110020</a></p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- google maps section----------------------- -->
+
+    <section class="map-container wd-page my20">
+        <center class="maps">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3505.2749114494063!2d77.27761057549715!3d28.531455475720065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjjCsDMxJzUzLjIiTiA3N8KwMTYnNDguNyJF!5e0!3m2!1sen!2sin!4v1695788710011!5m2!1sen!2sin"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </center>
+    </section>
+
+    <!-- contact form section------------------------------------// -->
+
+    <section class="form-outer-container flex-center wd-page">
+        <center class="contact-form my10">
+            <section class="form-head">
+                <h1>Contact Us Directly</h1>
+                <h3>Let Us Know Your Requirements</h3>
+            </section>
+            <form action="{% url 'contact' %}" method="post">
+                <input type="text" name="name" id="fullname" placeholder="Full Name"><br>
+                <input type="email" name="email" id="email" placeholder="Email Address"><br>
+                <input type="text" name="contact" id="phone" placeholder="Phone"><br>
+                <input type="text" name="subject" id="Subject" placeholder="Enter Subject"><br>
+                <textarea name="message" id="" cols="30" rows="10" placeholder="Write a Message . . ."></textarea><br>
+                <button class="btn" type="submit"> Send Message <i class="fas fa-arrow-right"></i></button>
+
+            </form>
+        </center>
     </section>
 
     <!-- contact us card section==================== -->
-    <div class="contact-card-container wd-page flex-center-col my20">
+    <div class="contact-card-container wd-page flex-center-col">
         <div class="contact-card wd-page flex-center-col my20">
             <h1 class="mpt-5 my10">To Get Latest Price Call Us</h1>
             <h1 class="mpt-5 my10">Don't Be Hesitate To Contact Us</h1>
@@ -111,81 +169,9 @@
         </div>
     </div>
 
-    <section class="accordion-container-box my20">
-        <section class="why-choose-us my20">
-            <h3 class="mpt-5">WHY CHOOSE US</h3>
-            <h1 class="mpt-5">Innovating Solutions</h1>
-            <h1 class="mpt-5">Digital Mindset</h1>
-        </section>
-        <div class="accordion accordion-flush" id="accordionFlushExample">
-            <div class="accordion-item my10">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                        Why Do Business Need IT Solutions?
-                    </button>
-                </h2>
-                <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body"><p class="mpt-5">IT solutions are essential for businesses to improve efficiency,
-                        productivity, and
-                        competitiveness. They help streamline operations, manage data, enhance communication, and
-                        provide a secure
-                        environment for handling sensitive information. IT solutions also enable businesses to adapt to
-                        technological
-                        advancements and stay ahead in the digital era.</p></div>
-                </div>
-            </div>
-            <div class="accordion-item my10">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                        How Can IT Solutions Improve Cybersecurity?
-                    </button>
-                </h2>
-                <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body"><p class="mpt-5">IT solutions play a crucial role in enhancing cybersecurity. They can
-                        include firewall
-                        protection, intrusion detection systems, antivirus software, encryption tools, and regular
-                        security
-                        assessments. By implementing these solutions, businesses can protect their data and systems from
-                        unauthorized
-                        access, data breaches, and cyber threats.</p></div>
-                </div>
-            </div>
-            <div class="accordion-item my10">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                        How Can I Choose The Right IT Solution For My Business?
-                    </button>
-                </h2>
-                <div id="flush-collapseThree" class="accordion-collapse collapse"
-                    data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body"><p class="mpt-5">Selecting the right IT solution requires careful consideration of your business needs, budget,
-                        scalability, security requirements, and compatibility with existing systems. Consulting with IT experts or
-                        engaging an IT service provider can be helpful in identifying the best-fit solutions for your specific
-                        requirements.</p></div>
-                </div>
-            </div>
-            <div class="accordion-item my10">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                        Can IT Solutions Be Customized to Fit Unique Business Needs?
-                    </button>
-                </h2>
-                <div id="flush-collapseFour" class="accordion-collapse collapse"
-                    data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body"><p class="mpt-5">Yes, many IT solutions can be customized to cater to specific business requirements. Software
-                        applications, in particular, can often be tailored to meet unique workflows and processes. However,
-                        customization may vary depending on the solution and vendor capabilities.</p></div>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <!-- footer----------------------------------------------------- -->
-    <footer class="footer flex-col my20">
+    <footer class="footer flex-col">
         <div class="footer-content-cotainer flex wd-page">
             <div class="column-1 column-common flex-center-col">
                 <h1 class="mpt-5"><strong>About Company</strong></h1>
