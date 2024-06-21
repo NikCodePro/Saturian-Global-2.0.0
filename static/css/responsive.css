@@ -257,3 +257,77 @@
     }
 
 }
+
+/* service page css/////////////////////////////////////////////////////////////////////////// */
+
+@media (max-width: 650px){
+    .first-heading-container {
+        width: 95%;
+    }
+    
+    .first-heading-container h1 {
+        font-size: 1rem;
+    }
+    
+    .first-heading-container h3 {
+        font-size: 0.8rem;
+    }
+
+    .heading h1 {
+        font-size: 1rem;
+    }
+    
+    .heading h2 {
+        font-size: 0.7rem;
+    }
+
+    .about-card {
+        width: 200px;
+        height: 300px;
+    }
+
+    .about-card img {
+        height: 150px;
+    }
+
+    .about-card h1 {
+        font-size: 0.8rem;
+    }
+    
+    .about-card p {
+        font-size: 0.7rem;
+    }
+    
+    .about-card a {
+        font-size: 0.7rem;
+    }
+    
+    .about-card i {
+        font-size: 0.6rem;
+    }
+
+    .web-service-container h1 {
+        font-size: 0.9rem;
+    }
+    
+    .web-service-container h3 {
+        font-size: 0.6rem;
+    }
+
+    .f-h2 {
+        font-size: 0.6rem;
+    }
+
+    .f-ul li {
+        font-size: 0.6rem;
+    }
+
+    .btn-web a {
+        font-size: 8px;
+        padding: 3px;
+    }
+
+    .btn-web a i{
+        padding: 2px;
+    }
+}
