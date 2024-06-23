@@ -1,0 +1,42 @@
+/* <!-- Popular services content <section--------------------------------------------------------------------------------------------> */
+
+.pop-it-serv-content {
+    width: 70%;
+    margin: auto;
+    padding: 10px;
+}
+
+.pop-it-serv-content h5 {
+    font-size: 2rem;
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+.pop-it-serv-content h1 {
+    font-size: 1.8rem;
+    color: white;
+    margin: 5px;
+    padding: 5px;
+}
+
+.pop-it-serv-content h2 {
+    font-size: 1.3rem;
+    color: white;
+    margin: 5px;
+    padding: 5px;
+}
+
+.pop-it-serv-content p {
+    font-size: 1rem;
+    color: white;
+    margin: 5px;
+    padding: 5px;
+}
+
+hr {
+    color: #c198d9;
+    width: 100%;
+    margin: 5px 0px;
+}
