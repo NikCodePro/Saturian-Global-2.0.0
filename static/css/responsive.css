@@ -331,3 +331,45 @@
         padding: 2px;
     }
 }
+
+/* service details page css-------------------------------- */
+
+@media(max-width:450px){
+    .service-form h1 {
+        font-size: 1.5rem;
+    }
+    
+    .service-form input[type=text] {
+        margin: 5px;
+        padding: 5px;
+    }
+    
+    .service-form input[type=email] {
+        margin: 5px;
+        padding: 5px;
+    }
+    
+    .service-form textarea {
+        margin: 5px;
+        padding: 5px;
+    }
+    
+    .service-form ::placeholder {
+        padding: 5px;
+        margin: 5px;
+        font-size: .9rem;
+    }
+    
+    .btn {
+        margin: 5px;
+        padding: 5px;
+    }
+    
+    .service-buttons .s-b {
+        margin: 10px 0px;
+    }
+    .service-buttons .s-b p {
+        font-size: 0.9rem;
+    }
+    
+}

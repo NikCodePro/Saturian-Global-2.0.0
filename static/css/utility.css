@@ -102,6 +102,10 @@ html {
   border: solid 1px rgb(128, 23, 23);
 }
 
+.textcenter{
+  text-align: center;
+}
+
 
 /* header section  ---------------------------------------------------------------------------------------*/
 /* header section  ---------------------------------------------------------------------------------------*/
@@ -419,8 +423,7 @@ html {
 .about-banner {
   width: 100%;
   height: 70vh;
-  /* background: url(/static/media/about.jpg) no-repeat center/cover fixed; */
-  margin-bottom: 25px;
+  /* margin-bottom: 25px; */
 }
 
 .shade {
