@@ -1,5 +1,9 @@
 /* <!-- Popular services content <section--------------------------------------------------------------------------------------------> */
 
+.background-pop-it-services{
+    background-image: linear-gradient(to bottom right, #060606, #242424, #333333, #333333, #242424, #060606);
+}
+
 .pop-it-serv-content {
     width: 70%;
     max-width: 65rem;

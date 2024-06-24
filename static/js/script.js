@@ -63,6 +63,7 @@ gsap.from(".lower-text-container h3,.header-text-container h1", {
 gsap.from(".info-link-1 a", {
     opacity: 0,
     duration: .7,
+    delay:.6,
     x: -70,
 })
 
