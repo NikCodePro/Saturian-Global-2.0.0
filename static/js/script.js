@@ -52,14 +52,15 @@ tl.from(".link", {
     stagger:.05,
 })
 
-tl.from(".lower-text-container h3,.header-text-container h1", {
+gsap.from(".lower-text-container h3,.header-text-container h1", {
     opacity: 0,
     duration: 1,
+    delay:.3,
     y: -30,
     stagger: .1,
 })
 
-tl.from(".info-link-1 a", {
+gsap.from(".info-link-1 a", {
     opacity: 0,
     duration: .7,
     x: -70,
@@ -77,4 +78,14 @@ gsap.from(".info-card", {
         end:"top 60%",
         scrub:.5,
     }
+})
+
+let tl2 = gsap.timeline()
+
+tl2.from(".about-banner-head h1,.about-banner-head h4", {
+    opacity: 0,
+    duration: 1,
+    y: -30,
+    delay: .3,
+    stagger: .1,
 })
