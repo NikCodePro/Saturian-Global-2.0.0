@@ -71,11 +71,11 @@
 
 .modal-content {
     width: clamp(200px, 90vw, 450px);
-    border: none;
-    background-image: linear-gradient(to bottom right, #2b124c, #522b5b);
+    background-color: rgba(255, 255, 255, 0.118);
+    backdrop-filter: blur(5px);
     padding: clamp(1rem, 100vw, 0rem);
     box-shadow: 0 0 .5em rgba(0, 0, 0, .5);
-    border: solid 0.5px #c198d9;
+    border: solid 0.5px #DAA520;
     border-radius: 15px;
 }
 
@@ -95,12 +95,10 @@
 .form input {
     border-right: none;
     background-color: transparent;
-    backdrop-filter: blur(5px);
     border-top: none;
     border-left: none;
     border-radius: 0;
     color: white;
-    /* color: black; */
     border-bottom: 1px solid rgb(84, 82, 82);
 }
 
@@ -115,9 +113,7 @@
 .form input:focus,
 .form textarea:focus {
     background: transparent;
-    /* background-color: #ffffff9c; */
     box-shadow: none;
-    /* border: 2px solid red; */
     color: white;
     border-bottom: 1px solid rgb(84, 82, 82);
 }
@@ -128,7 +124,7 @@
 }
 
 .form textarea {
-    background-color: transparent;
+    background: transparent;
     border-right: none;
     border-top: none;
     border-left: none;
@@ -143,12 +139,13 @@
 
 .modal-footer .btn {
     color: white;
-    background-color: #2b124c;
+    background-color: #FFD700;
     border: none;
-    transition: all ease-in-out 0.2s;
+    transition: all linear 0.3s;
     margin: 5px;
 }
 
 .modal-footer .btn:hover {
-    transform: scale(1.1);
+    background-color: #FFD700;
+    box-shadow: 1px 1px 50px #FFD700;
 }

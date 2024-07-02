@@ -42,14 +42,14 @@
                     <div class="s-p-tags my10 textcenter flex-center-col"><lord-icon
                             src="https://cdn.lordicon.com/dndbceuc.json" trigger="hover"
                             style="width:100px;height:100px" colors="primary:#FFD700">
-                        </lord-icon> Flexible rental Tenure</div>
+                        </lord-icon> Flexible Rental Tenure</div>
                     <div class="s-p-tags my10 textcenter flex-center-col"><lord-icon
                             src="https://cdn.lordicon.com/ghhwiltn.json" trigger="hover"
                             style="width:100px;height:100px" colors="primary:#FFD700">
                         </lord-icon> KYC Document to be Submitted Before Delivery</div>
 
-                    <button type="button" class="quotation-btn flex" data-bs-toggle="modal" data-bs-target="#exampleModal"
-                        data-bs-whatever="@mdo">
+                    <button type="button" class="quotation-btn flex" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal" data-bs-whatever="@mdo">
                         <p class="mpt-5">Request Quote</p>
                         <lord-icon src="https://cdn.lordicon.com/chhdhony.json" trigger="hover"
                             style="width:25px;height:25px" colors="primary:#ffffff" stroke="bold">
@@ -68,13 +68,14 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h1 class="modal-title fs-5" id="exampleModalLabel">Request Quote</h1>
-                    <button type="button" id="close_btn" class="btn-close" data-bs-dismiss="modal"
-                        aria-label="Close"></button>
+                    <lord-icon type="button" id="close_btn" data-bs-dismiss="modal" aria-label="Close"
+                        src="https://cdn.lordicon.com/nqtddedc.json" trigger="hover" colors="primary:#FFD700"
+                        style="width:20px;height:20px">
+                    </lord-icon>
                 </div>
                 <div class="modal-body">
                     <div class="form">
                         <form action="{% url 'view' item.slug %}" method="post">
-                            {% csrf_token %}
                             <div class="mb-3">
                                 <input type="text" name="name" class="form-control" placeholder="Name">
                             </div>
