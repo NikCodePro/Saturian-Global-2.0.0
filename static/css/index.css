@@ -49,8 +49,7 @@
 }
 
 .service-card-header {
-    width: 55rem;
-    /* background-image: linear-gradient(to bottom right, rgb(30, 28, 28), rgb(37, 35, 35), rgb(30, 28, 28)); */
+    width: 55rem;/* background-image: linear-gradient(to bottom right, rgb(30, 28, 28), rgb(37, 35, 35), rgb(30, 28, 28)); */
     text-align: center;
 }
 
@@ -84,7 +83,7 @@
 
 .info-card:hover {
     backdrop-filter: blur(5px);
-    background-color: #08080875;
+    background-color: #fffefe1a;
     scale: 1.2;
 }
 

@@ -67,19 +67,19 @@ gsap.from(".info-link-1 a", {
     x: -70,
 })
 
-gsap.from(".info-card", {
-    opacity: 0,
-    scale: .2,
-    duration: 1,
-    scrollTrigger:{
-        trigger:".service-card-section .info-card",
-        scroller:"body",
-        // markers:true,
-        start:"top 80%",
-        end:"top 60%",
-        scrub:.5,
-    }
-})
+// gsap.from(".info-card", {
+//     opacity: 0,
+//     scale: .2,
+//     duration: 1,
+//     scrollTrigger:{
+//         trigger:".service-card-section .info-card",
+//         scroller:"body",
+//         // markers:true,
+//         start:"top 80%",
+//         end:"top 60%",
+//         scrub:.5,
+//     }
+// })
 
 let tl2 = gsap.timeline()
 

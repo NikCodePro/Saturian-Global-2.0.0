@@ -18,9 +18,57 @@
 
 <body>
 
+    <!-- navbar------------------------------------>
+    <header id="header">
+        <div class="logo-part">
+            <a href="index.html">
+                <img src="/static/media/saturian.png" alt="saturian logo" />
+                <h1>Saturian Global</h1>
+            </a>
+        </div>
+        <ul id="navbar" class="navbar">
+            <li class="link">
+                <a href="index.html" class="active">Home</a>
+            </li>
+            <li class="link">
+                <a href="About.html">About</a>
+            </li>
+            <li class="link" class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Products
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="Laptop.html">Laptop</a></li>
+                    <li><a class="dropdown-item" href="#">Apple</a></li>
+                    <li><a class="dropdown-item" href="#">Computers</a></li>
+                    <li><a class="dropdown-item" href="#">CCTV</a></li>
+                    <li><a class="dropdown-item" href="#">Printers</a></li>
+                    <li><a class="dropdown-item" href="#">Accessories</a></li>
+                    <li><a class="dropdown-item" href="#">All in One</a></li>
+                </ul>
+            <li class="link">
+                <a href="Service.html">Services</a>
+            </li>
+            <li class="link">
+                <a href="Contact.html">Contact us</a>
+            </li>
+            <a href="#" id="close" class="link">
+                <lord-icon src="https://cdn.lordicon.com/nqtddedc.json" trigger="hover" colors="primary:#FFD700"
+                    style="width:25px;height:25px">
+                </lord-icon>
+            </a>
+        </ul>
+        <div id="hamburger">
+            <lord-icon id="bar" src="https://cdn.lordicon.com/swcqkzdc.json" trigger="hover"
+                style="width:25px;height:25px" colors="primary:#FFD700">
+            </lord-icon>
+        </div>
+    </header>
 
     <!-- banner section---------------------------------- -->
-    <section style="background: url(/static/media/about.jpg) no-repeat center/cover fixed;" class="about-banner" id="about-banner">
+    <section style="background: url(/static/media/about.jpg) no-repeat center/cover fixed;" class="about-banner"
+        id="about-banner">
         <aside class="shade flex-center">
             <div class="about-banner-head">
                 <h1>
@@ -77,13 +125,16 @@
                     </button>
                 </h2>
                 <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body"><p class="mpt-5">IT solutions are essential for businesses to improve efficiency,
-                        productivity, and
-                        competitiveness. They help streamline operations, manage data, enhance communication, and
-                        provide a secure
-                        environment for handling sensitive information. IT solutions also enable businesses to adapt to
-                        technological
-                        advancements and stay ahead in the digital era.</p></div>
+                    <div class="accordion-body">
+                        <p class="mpt-5">IT solutions are essential for businesses to improve efficiency,
+                            productivity, and
+                            competitiveness. They help streamline operations, manage data, enhance communication, and
+                            provide a secure
+                            environment for handling sensitive information. IT solutions also enable businesses to adapt
+                            to
+                            technological
+                            advancements and stay ahead in the digital era.</p>
+                    </div>
                 </div>
             </div>
             <div class="accordion-item my10">
@@ -94,13 +145,16 @@
                     </button>
                 </h2>
                 <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body"><p class="mpt-5">IT solutions play a crucial role in enhancing cybersecurity. They can
-                        include firewall
-                        protection, intrusion detection systems, antivirus software, encryption tools, and regular
-                        security
-                        assessments. By implementing these solutions, businesses can protect their data and systems from
-                        unauthorized
-                        access, data breaches, and cyber threats.</p></div>
+                    <div class="accordion-body">
+                        <p class="mpt-5">IT solutions play a crucial role in enhancing cybersecurity. They can
+                            include firewall
+                            protection, intrusion detection systems, antivirus software, encryption tools, and regular
+                            security
+                            assessments. By implementing these solutions, businesses can protect their data and systems
+                            from
+                            unauthorized
+                            access, data breaches, and cyber threats.</p>
+                    </div>
                 </div>
             </div>
             <div class="accordion-item my10">
@@ -112,10 +166,15 @@
                 </h2>
                 <div id="flush-collapseThree" class="accordion-collapse collapse"
                     data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body"><p class="mpt-5">Selecting the right IT solution requires careful consideration of your business needs, budget,
-                        scalability, security requirements, and compatibility with existing systems. Consulting with IT experts or
-                        engaging an IT service provider can be helpful in identifying the best-fit solutions for your specific
-                        requirements.</p></div>
+                    <div class="accordion-body">
+                        <p class="mpt-5">Selecting the right IT solution requires careful consideration of your business
+                            needs, budget,
+                            scalability, security requirements, and compatibility with existing systems. Consulting with
+                            IT experts or
+                            engaging an IT service provider can be helpful in identifying the best-fit solutions for
+                            your specific
+                            requirements.</p>
+                    </div>
                 </div>
             </div>
             <div class="accordion-item my10">
@@ -127,13 +186,108 @@
                 </h2>
                 <div id="flush-collapseFour" class="accordion-collapse collapse"
                     data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body"><p class="mpt-5">Yes, many IT solutions can be customized to cater to specific business requirements. Software
-                        applications, in particular, can often be tailored to meet unique workflows and processes. However,
-                        customization may vary depending on the solution and vendor capabilities.</p></div>
+                    <div class="accordion-body">
+                        <p class="mpt-5">Yes, many IT solutions can be customized to cater to specific business
+                            requirements. Software
+                            applications, in particular, can often be tailored to meet unique workflows and processes.
+                            However,
+                            customization may vary depending on the solution and vendor capabilities.</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- footer----------------------------------------------------- -->
+    <footer class="footer flex-col">
+        <div class="footer-content-cotainer flex wd-page">
+            <div class="column-1 column-common flex-center-col">
+                <h1 class="mpt-5"><strong>About Company</strong></h1>
+                <ul>
+                    <li><a href="Services.html" class="flex">
+                            <lord-icon src="https://cdn.lordicon.com/ygvjgdmk.json" trigger="hover"
+                                colors="primary:#FFD700" style="width:25px;height:25px">
+                            </lord-icon>
+                            <p class="mpt-5">Services</p>
+                        </a></li>
+                    <li><a href="About.html" class="flex">
+                            <lord-icon src="https://cdn.lordicon.com/ygvjgdmk.json" trigger="hover"
+                                colors="primary:#FFD700" style="width:25px;height:25px">
+                            </lord-icon>
+                            <p class="mpt-5">About</p>
+                        </a></li>
+                    <li><a href="Contact.html" class="flex">
+                            <lord-icon src="https://cdn.lordicon.com/ygvjgdmk.json" trigger="hover"
+                                colors="primary:#FFD700" style="width:25px;height:25px">
+                            </lord-icon>
+                            <p class="mpt-5">Contact Us</p>
+                        </a></li>
+                    <li><a href="https://www.globalsaturian.com" target="_blank" class="flex">
+                            <lord-icon src="https://cdn.lordicon.com/ygvjgdmk.json" trigger="hover"
+                                colors="primary:#FFD700" style="width:25px;height:25px">
+                            </lord-icon>
+                            <p class="mpt-5">More With Saturian Global</p>
+                        </a></li>
+                </ul>
+            </div>
+            <div class="column-2 column-common my20 flex-center-col">
+                <h1 class="mpt-5"><strong>Explore More</strong></h1>
+                <ul>
+                    <li><a href="Service-details.html" class="flex">
+                            <lord-icon src="https://cdn.lordicon.com/ygvjgdmk.json" trigger="hover"
+                                colors="primary:#FFD700" style="width:25px;height:25px">
+                            </lord-icon>
+                            <p class="mpt-5">PC For Rent</p>
+                        </a></li>
+                    <li><a href="Popular-services.html" class="flex">
+                            <lord-icon src="https://cdn.lordicon.com/ygvjgdmk.json" trigger="hover"
+                                colors="primary:#FFD700" style="width:25px;height:25px">
+                            </lord-icon>
+                            <p class="mpt-5">Digital Marketing</p>
+                        </a></li>
+                    <li><a href="Popular-services.html" class="flex">
+                            <lord-icon src="https://cdn.lordicon.com/ygvjgdmk.json" trigger="hover"
+                                colors="primary:#FFD700" style="width:25px;height:25px">
+                            </lord-icon>
+                            <p class="mpt-5">Product Engineering</p>
+                        </a></li>
+                    <li><a href="Service-details.html" class="flex">
+                            <lord-icon src="https://cdn.lordicon.com/ygvjgdmk.json" trigger="hover"
+                                colors="primary:#FFD700" style="width:25px;height:25px">
+                            </lord-icon>
+                            <p class="mpt-5">Customize Your PC</p>
+                        </a></li>
+                </ul>
+            </div>
+            </section>
+            <div class="column-3 my20 column-common flex-center-col">
+                <ul>
+                    <p class="mpt-5">Mail Us Your Querries on</p>
+                    <li><a class="mpt-5" href="mailto:Info@Saturianglobal.com"
+                            target="_blank">Info@Saturianglobal.com</a></li>
+                    <li><a class="mpt-5" href="mailto:contact@Saturianglobal.com"
+                            target="_blank">Contact@Saturianglobal.com</a>
+                    </li>
+            </div>
+            <div class="column-4 my20 column-common flex-center-col">
+                <div class="column-4-img">
+                    <img src="/static/media/saturian.png" alt="saturian logo">
+                </div>
+                <div class="socialmedia flex wd-page">
+                    <a href="https://www.instagram.com/saturian_global?igshid=OGQ5ZDc2ODk2ZA==" target="_blank"><i
+                            class="fab fa-instagram fa-lg"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=61550589569176&mibextid=ZbWKwL" target="_blank"><i
+                            class="fab fa-facebook fa-lg"></i></a>
+                    <a href="http://www.linkedin.com/in/saturian-global-49889428a" target="_blank"><i
+                            class="fab fa-linkedin fa-lg"></i></a>
+                </div>
+            </div>
+            <!-- copyright section ----------------------->
+            <div class="copyright flex-center wd-page">
+                <h1 class="mpt-5">Copyright @2023 SATURIAN GLOBAL</h1>
+            </div>
+        </div>
+    </footer>
 
     <!-- go to top button--------------------------------------- -->
     <a href="#">
