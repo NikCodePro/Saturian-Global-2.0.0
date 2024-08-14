@@ -100,8 +100,11 @@
 
 /* home banner section------------------------- */
 @media (max-width:585px) {
-    .header-text-container h1 {
-        font-size: 3rem;
+    .header-text-container cursive {
+        font-size: 4rem;
+    }
+    .header-text-container cursive2 {
+        font-size: 2rem;
     }
 
     .lower-text-container h3 {

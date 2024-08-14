@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&family=Water+Brush&display=swap');
 
 * {
   margin: 0;
@@ -102,8 +103,22 @@ html {
   border: solid 1px rgb(128, 23, 23);
 }
 
-.textcenter{
+.textcenter {
   text-align: center;
+}
+
+.cursive {
+  font-family: "Water Brush", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 5rem;
+}
+
+.cursive2 {
+  font-family: "Water Brush", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3rem;
 }
 
 
