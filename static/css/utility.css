@@ -452,6 +452,7 @@ html {
 /* breaddccrumb for product page */
 
 .bread-crumb {
+  margin-top: 50px;
   height: 8vh;
   background-image: linear-gradient(to bottom right, #060606, #242424, #333333, #333333, #242424, #060606);
 }
