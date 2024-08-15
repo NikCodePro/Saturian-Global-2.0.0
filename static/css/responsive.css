@@ -100,10 +100,11 @@
 
 /* home banner section------------------------- */
 @media (max-width:585px) {
-    .header-text-container cursive {
+    .header-text-container h1 {
         font-size: 3rem;
     }
-    .header-text-container cursive2 {
+
+    .header-text-container h1 {
         font-size: 2rem;
     }
 
@@ -246,11 +247,11 @@
     .contact-form input[type=text] {
         width: 80%;
     }
-    
+
     .contact-form input[type=email] {
         width: 80%;
     }
-    
+
     .contact-form textarea {
         width: 80%;
     }
@@ -263,15 +264,15 @@
 
 /* service page css/////////////////////////////////////////////////////////////////////////// */
 
-@media (max-width: 650px){
+@media (max-width: 650px) {
     .first-heading-container {
         width: 95%;
     }
-    
+
     .first-heading-container h1 {
         font-size: 1rem;
     }
-    
+
     .first-heading-container h3 {
         font-size: 0.8rem;
     }
@@ -279,7 +280,7 @@
     .heading h1 {
         font-size: 1rem;
     }
-    
+
     .heading h2 {
         font-size: 0.7rem;
     }
@@ -296,15 +297,15 @@
     .about-card h1 {
         font-size: 0.8rem;
     }
-    
+
     .about-card p {
         font-size: 0.7rem;
     }
-    
+
     .about-card a {
         font-size: 0.7rem;
     }
-    
+
     .about-card i {
         font-size: 0.6rem;
     }
@@ -312,7 +313,7 @@
     .web-service-container h1 {
         font-size: 0.9rem;
     }
-    
+
     .web-service-container h3 {
         font-size: 0.6rem;
     }
@@ -330,49 +331,50 @@
         padding: 3px;
     }
 
-    .btn-web a i{
+    .btn-web a i {
         padding: 2px;
     }
 }
 
 /* service details page css-------------------------------- */
 
-@media(max-width:450px){
+@media(max-width:450px) {
     .service-form h1 {
         font-size: 1.5rem;
     }
-    
+
     .service-form input[type=text] {
         margin: 5px;
         padding: 5px;
     }
-    
+
     .service-form input[type=email] {
         margin: 5px;
         padding: 5px;
     }
-    
+
     .service-form textarea {
         margin: 5px;
         padding: 5px;
     }
-    
+
     .service-form ::placeholder {
         padding: 5px;
         margin: 5px;
         font-size: .9rem;
     }
-    
+
     .btn {
         margin: 5px;
         padding: 5px;
     }
-    
+
     .service-buttons .s-b {
         margin: 10px 0px;
     }
+
     .service-buttons .s-b p {
         font-size: 0.9rem;
     }
-    
+
 }
