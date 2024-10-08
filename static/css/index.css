@@ -10,14 +10,14 @@
     width: 60%;
 }
 
-.header-text-container h1 {
-    font-family: serif;
-    font-size: 5rem;
-    color: #DAA520;
+.saturian-intro-img{
+    width: 50rem;
+    height: 20rem;
+    
 }
 
 .lower-text-container {
-    text-align: left;
+    text-align: center;
     width: 60%;
 }
 

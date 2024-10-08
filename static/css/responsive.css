@@ -100,14 +100,6 @@
 
 /* home banner section------------------------- */
 @media (max-width:585px) {
-    .header-text-container h1 {
-        font-size: 3rem;
-    }
-
-    .lower-text-container h3 {
-        color: #DAA520;
-        font: 1.7rem;
-    }
 
     .info-link-1 a h4 {
         font-size: 1rem;
