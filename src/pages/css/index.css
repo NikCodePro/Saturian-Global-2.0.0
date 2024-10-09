@@ -1,0 +1,133 @@
+/* home banner section============== */
+
+.home-banner {
+    height: 80vh;
+    background: url(/static/media/slide1.jpg) no-repeat center/cover;
+}
+
+.header-text-container {
+    text-align: left;
+    width: 60%;
+}
+
+.saturian-intro-img{
+    width: 50rem;
+    height: 20rem;
+    
+}
+
+.lower-text-container {
+    text-align: center;
+    width: 60%;
+}
+
+.lower-text-container h3 {
+    color: #DAA520;
+    font: 2.5rem;
+}
+
+.banner-info-liks-container {
+    width: 60%;
+}
+
+.info-link-1 a {
+    text-decoration: none;
+}
+
+.info-link-1 a h4 {
+    color: white;
+    font-size: 1.3rem;
+    transition: all ease .3s;
+}
+
+.info-link-1 a h4:hover {
+    color: #DAA520;
+}
+
+/* service card section==================== */
+.service-card-section {
+    background: url(/static/media/theme.jpg) no-repeat center/cover fixed;
+}
+
+.service-card-header {
+    width: 55rem;/* background-image: linear-gradient(to bottom right, rgb(30, 28, 28), rgb(37, 35, 35), rgb(30, 28, 28)); */
+    text-align: center;
+}
+
+.service-card-header h1 {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.service-card-header h2 {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.service-card-container {
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.service-card-container a {
+    text-decoration: none;
+}
+
+.info-card {
+    width: 340px;
+    height: 260px;
+    text-align: center;
+    border-radius: 20px;
+    background: transparent;
+    transition: ease-in .3s all;
+}
+
+.info-card:hover {
+    backdrop-filter: blur(5px);
+    background-color: #fffefe1a;
+    scale: 1.2;
+}
+
+.info-card img {
+    width: 170;
+    height: 110px;
+}
+
+.info-card h3 {
+    color: white;
+    font-size: 1.1rem;
+}
+
+/* Achivements Section============================= */
+
+.achivement-box {
+    background: url(/static/media/theme.jpg) no-repeat center/cover fixed;
+}
+
+.achivement-box-head {
+    text-align: center;
+}
+
+.achivement-box-head h1 {
+    color: white;
+    font-size: 1.3rem;
+}
+
+.achivement-box-content {
+    justify-content: space-evenly;
+}
+
+.achivements-card {
+    width: 200px;
+    height: 250px;
+    text-align: center;
+    border: solid .1px #DAA520;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    margin: 10px 10px;
+}
+
+.achivements-card h1 {
+    color: white;
+    font-size: 1.1rem;
+}
